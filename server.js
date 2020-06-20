@@ -19,8 +19,8 @@ const db=async()=>{
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.use("/",express.static("Landing page"))
-app.use("/Dashboard",express.static("Dashboard"))
+app.use("/",express.static("Dashboard"))
+//app.use("/Dashboard",express.static("Dashboard"))
 
 
 
