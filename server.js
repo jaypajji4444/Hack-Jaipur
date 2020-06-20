@@ -3,9 +3,9 @@ const express=require("express");
 const app= express();
 const bodyParser=require('body-parser');
 const mongoose=require("mongoose");
-//const User=require("./model/data");
+const User=require("./model/data");
 const path=require("path");
-//const config=require("./config/key");
+const config=require("./config/key");
 
 
 // Database
@@ -34,41 +34,39 @@ app.use(function (req, res, next) {
 // @@@@@@@@@@@@ API ENDPOINTS @@@@@@@@@@@@
 
 
-app.get("/hi",(req,res)=>{
- 
-   res.sendFile(path.join(__dirname,"/public/MIT/Landing page/home.html"))
+app.get("/",(req,res)=>{
+res.send("Hello World")
 })
 
 app.post("/web",async(req,res)=>{
     User.remove({},(err,datas)=>{
-        if(err)console.log(err)
+        if(err){
+            return res.status(400).json(err)
+        }
         else{
-            console.log("delete:",datas)
-
-        const data={data:req.body}
-    console.log(data)
-    const user=new User(data)
-    user.save().then(res=>console.log("saved to database")).catch(err=>console.log(err))
-    
-    res.json({msg:"all good"})
+            const data={data:req.body}
+            const user=new User(data)
+            user.save().then(res=>console.log("saved to database")).catch(err=>{
+                return res.status(500).json(err)
+            })
+            return res.status(200).json({msg:"all good"})
         }
     })
     
-
-   
 })
 
 app.get("/web",async(req,res)=>{
-
-  User.find({},(err,data)=>{
-    if(err)console.log(err)
+User.find({},(err,data)=>{
+    if(err){
+        return res.status(500).json(err)
+    }
     else{
         res.setHeader("content-type", "application/json")
         //  console.log(data);
-        res.send(JSON.stringify(data));
+        res.status(200).send(JSON.stringify(data));
     }
-  })
-  
+})
+
 })
 
 app.post("/home",(req,res)=>{
