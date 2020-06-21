@@ -23,20 +23,20 @@
 	 - Jay Mehta https://github.com/jaypajji4444/
 	 - Deep Gandhi https://github.com/deep1401/
 	 - Jash Mehta https://github.com/jashmehta3300/
+	 - Nirali Parekh https://github.com/nirali25parekh 
 - *Demo Link*:https://youtu.be/_QtbxXm0fkQ 
 - *Labels*: Machine Learning, Azure, Praw, Video Analytics, Node.js, Flask 
 
 ## Installation
 
 ```bash
-git clone https://github.com/jaypajji4444/24-Digital_Chaos-VIDALYTICS.git
-cd codebreak
+git clone "https://github.com/jaypajji4444/Hack-Jaipur"
 pip install -r requirements.txt
-flask run
+cd codebreak
+python app.py
 cd ..
 cd reddit
-pip install -r requirements.txt
-flask run --port 5050
+python app.py
 cd ..
 
 ## Starting app
