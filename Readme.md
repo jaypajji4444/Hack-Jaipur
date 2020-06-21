@@ -23,7 +23,7 @@
 	 - Jay Mehta https://github.com/jaypajji4444/
 	 - Deep Gandhi https://github.com/deep1401/
 	 - Jash Mehta https://github.com/jashmehta3300/
-- *Demo Link*: https://www.youtube.com/watch?v=Fqq0us2Nn0A&feature=youtu.be
+- *Demo Link*:https://youtu.be/_QtbxXm0fkQ 
 - *Labels*: Machine Learning, Azure, Praw, Video Analytics, Node.js, Flask 
 
 ## Installation
