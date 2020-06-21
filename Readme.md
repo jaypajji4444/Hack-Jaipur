@@ -1,14 +1,13 @@
 # Hack-Jaipur
 # VidAlytics - Video Analysis for Marketing and Business Development
 
-This is an online service created by team Digital Chaos for content creators that performs video content anaylsis for designing effective marketing and business development policies.
-Also ,A chrome extension which helps you navigate to the part of video having the content you are looking for by just typing the keyword
+>This is an online service created by team Digital Chaos for content creators that performs video content anaylsis for designing effective marketing and business development policies.
+>Also ,A chrome extension which helps you navigate to the part of video having the content you are looking for by just typing the keyword
 
-
+# 1) WebApp
 ## Screenshots
 
 ![](https://github.com/jashmehta3300/Screenshots/blob/master/Vidalytics_img/home1.JPG)
-![](https://github.com/jashmehta3300/Screenshots/blob/master/Vidalytics_img/home2.JPG)
 ![](https://github.com/jashmehta3300/Screenshots/blob/master/Vidalytics_img/home3.JPG)
 ![](https://github.com/jashmehta3300/Screenshots/blob/master/Vidalytics_img/home4.JPG)
 ![](https://github.com/jashmehta3300/Screenshots/blob/master/Vidalytics_img/Video%20Analytics.JPG)
@@ -59,7 +58,7 @@ Content creators over the country suffer from a common problem that cannot be so
 ## Note
 We used the Reddit Praw data mining tool for dynamic mining of data every time a keyword is generated. This helps keep up with the current sentiment of the society.
 
-# Youtube_Extension
+# 2) Youtube_Extension
 
 >A chrome extension which helps you navigate to the part of video having the content you are looking for.
 ## Use Case
