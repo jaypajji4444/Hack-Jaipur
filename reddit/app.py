@@ -13,7 +13,7 @@ CORS(app, support_credentials=True)
 username = "digitalchaos123"
 password = "digitalchaos123"
 clientid = "8Lqn66LhUBDv-w"
-clientsecret = "hpMcf-vtl5TTvTc1jfm85GoJJ_Q"
+clientsecret = "SECRET"
 
 
 def mine_reddit():
