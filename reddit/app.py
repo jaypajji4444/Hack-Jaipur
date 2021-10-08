@@ -10,9 +10,9 @@ import os
 app = Flask(__name__)
 CORS(app, support_credentials=True)
 
-username = "digitalchaos123"
-password = "digitalchaos123"
-clientid = "8Lqn66LhUBDv-w"
+username = "SECRET"
+password = "SECRET"
+clientid = "SECRET"
 clientsecret = "SECRET"
 
 
