@@ -13,7 +13,7 @@ CORS(app, support_credentials=True)
 username = "SECRET Code"
 password = "SECRET"
 clientid = "SECRET"
-clientsecret = "SECRET"
+clientsecret = "SECRET CODE"
 
 
 def mine_reddit():
