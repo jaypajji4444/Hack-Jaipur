@@ -18,7 +18,7 @@ clientsecret = "SECRET CODE"
 
 def mine_reddit():
     def writeheaders():
-        f.writerow(["Number", "Keyword", "Title", "Score", "Comments", "URL", "Domain", "Permalink", "ID", "Subreddit",
+        f.writerow(["Number", "Keyword", "Title", "Score", "Comments", "URL", "Domain", "Permalink", "Subreddit",
                     "CreatedDate"])
 
     def writefields():
