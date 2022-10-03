@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app, support_credentials=True)
 CONFIG = {
     'SUBSCRIPTION_KEY': '#########################',
-    'LOCATION': 'trial',
+    'LOCATION': '############',
     'ACCOUNT_ID': '164b80dc-17e1-45d3-a186-1d84d6eb7b6d'
 }
 
