@@ -46,7 +46,10 @@ open: localhost:8000
 
 ## Description
 
+
 Content creators over the country suffer from a common problem that cannot be solved by being creative. In today's cut-throat marketing world, it is absolutely necessary to ensure that your product is marketed to the right audience in the right way. Video Indexer consolidates various audio and video artificial intelligence (AI) technologies offered into one integrated service, making development simpler. By abstracting away all the dirty API calls and loading screens, we aim to create a clean, one-stop service that would be of immediate help to anybody looking to market their product. To achieve this, we provide three main services - Label Identification (Video analysis), Keyword Identification (Audio analysis) and Sentiment Analysis. By combining insights from these channels, we provide a list of Reddit communities that the user can then target to market their content effectively. Also, by identifying the sentiments within the video, the user now gains an upper hand by getting exact target markets on where to spread their content. Also, the smart sentiment filtering helps users control the tone of the message being sent across. This is not only limited to the YouTube content creators but has widespread applications for various other entities such as companies looking forward to launching their products, people trying to convey a message be it in an interview or social. We look forward to integrate Facebook Graph in the app by finding a workaround to the privacy policies. Thus, we have created a one-stop shop for video analytics.
+
+
 
 ## Technology Stack Used
 - Node.js
@@ -56,14 +59,14 @@ Content creators over the country suffer from a common problem that cannot be so
 - Bootstrap
 
 ## Note
-We used the Reddit Praw data mining tool for dynamic mining of data every time a keyword is generated. This helps keep up with the current sentiment of the society.
+We used the Reddit Praw data mining tool for the dynamic mining of data every time a keyword is generated. It helps keep up with the current sentiment of society.
 
 # 2) Youtube_Extension
 
 >A chrome extension which helps you navigate to the part of video having the content you are looking for.
 ## Use Case
-1) Find relevant video without any need to watch it 
-2) Helps in marketing by analyzing your video and  including relevant keyword
+1) Find relevant video without any need to watch it
+2) Helps in marketing by analyzing your video and  including relevant keywords
 3) Saves your precious time
 ## Getting started
 Backend(API)
@@ -71,7 +74,7 @@ Backend(API)
 pip install -r requirements.txt
 python app.py
 ```
-Alternative Run the build.sh file as :-
+Alternatively, Run the build.sh file as :-
 ```
 bash build.sh
 ```
