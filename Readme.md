@@ -56,7 +56,7 @@ Content creators over the country suffer from a common problem that cannot be so
 - Bootstrap
 
 ## Note
-We used the Reddit Praw data mining tool for dynamic mining of data every time a keyword is generated. This helps keep up with the current sentiment of the society.
+We used the Reddit Praw data mining tool for the dynamic mining of data every time a keyword is generated. It helps keep up with the current sentiment of society.
 
 # 2) Youtube_Extension
 
