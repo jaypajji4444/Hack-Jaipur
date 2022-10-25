@@ -1,7 +1,7 @@
 # Hack-Jaipur
 # VidAlytics - Video Analysis for Marketing and Business Development
 
->It is an online service created by team Digital Chaos for content creators who perform video content analysis for designing effective marketing and business development policies. It supports various local languages too, including Hindi.
+>It is an online service created by team Digital Chaos for content creators who perform video content analysis for designing effective marketing and business development related policies. It supports various local languages too, including Hindi.
 >Also, a chrome extension which helps you navigate to the part of the video having the content you are looking for by just typing the keyword
 
 # 1) WebApp
