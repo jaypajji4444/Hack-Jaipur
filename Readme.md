@@ -65,6 +65,7 @@ We used the Reddit Praw data mining tool for the dynamic mining of data every ti
 
 >A chrome extension which helps you navigate to the part of video having the content you are looking for.
 ## Use Case
+
 1) Find a relevant video without any need to watch it
 2) Helps in marketing by analyzing your video and  including relevant keywords
 3) Saves your precious time
